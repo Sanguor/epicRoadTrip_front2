@@ -23,7 +23,7 @@ const Form = () => {
       } else {
         setError(0);
 
-        const response = await axios.post(`http://localhost:3000/epicroadtrip/${activity}`, { 
+        const response = await axios.post(`https://epic-road-trip2021.herokuapp.com/${activity}`, { 
           address,
           radius
         });
